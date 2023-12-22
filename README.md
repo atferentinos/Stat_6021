@@ -1,2 +1,16 @@
-# Stat_6021
-Graduate class Stat 6021 Projects 
+
+# Stat 6021 Projects
+
+## Project 1:
+The project involved a comprehensive analysis of claims made by the Blue Nile Company related to diamond characteristics and pricing. The first claim, asserting that 'Astor Ideal' diamonds fetch the highest price, was contradicted by data visualizations indicating that the quality and pricing of diamonds were not solely determined by their cut. The second claim, stating that clarity is the least important factor, was supported by a graph showing fluctuating average prices across different cuts, suggesting that clarity has a marginal effect on diamond pricing. The third claim, asserting that D & E colors are the most expensive, was substantiated by a visualization showing the popularity and higher value of diamonds with these colors. The fourth claim, stating that SI and VS diamonds offer the best value, was confirmed by data visualizations.
+
+The project also involved a linear regression analysis focusing on the relationship between diamond carat and price. The scatterplot relationship was found to be exponential and nonlinear, requiring variable transformations to stabilize the variance. Through these transformations and assessment of scatterplots, it was determined that a linear relationship exists between the logarithm of carat and the logarithm of price. The conclusion drawn from the regression analysis was that, for a 1% increase in diamond carat, the predicted price increases by approximately 1.944%. However, the project noted that the claim that SI and VS diamonds are the best value or quality for the price remains inconclusive, as other diamond trait combinations must be considered. Overall, the analysis provided valuable insights into the factors influencing diamond pricing and the validity of certain industry claims.
+
+## Project 2: 
+This project focuses on refining and evaluating logistic regression models for predicting whether a property has a waterfront view based on various predictors. The initial analysis identifies a high level of multicollinearity among the predictors, leading to the examination of reduced models. Two reduced models are explored, each involving a subset of predictors, and their performance is compared to the full model through likelihood ratio tests.
+
+The first reduced model, Model 2, includes predictors such as bedrooms, sqft_living15, and condition. The likelihood ratio test suggests that this model significantly differs from the full model. The second reduced model, Model 3, replaces sqft_living15 with sqft_living, and similarly, the likelihood ratio test indicates its significance compared to the full model. However, despite statistical significance, both reduced models are ultimately rejected in favor of retaining the full model with all predictors.
+
+The analysis continues with the evaluation of confusion matrices, ROC curves, and AUC values to assess the model's performance at different probability thresholds. The final logistic regression equation is presented, providing insights into the impact of each predictor on the log-odds of a property having a waterfront view. Interpretations of the coefficients reveal the nuanced relationships between predictors, allowing for a comprehensive understanding of the model's predictive capabilities. The study concludes by affirming the retention of all predictors in the final model, emphasizing the significance of each in predicting waterfront properties.
+
+
